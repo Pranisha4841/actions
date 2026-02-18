@@ -4,7 +4,7 @@ from django.urls import reverse
 
 class AddTestCase(TestCase):
     def test_add(self):
-        self.assertEqual(add(2, 3), 7)
+        self.assertEqual(add(2, 3), 5)
 
 class NotesTestcase(TestCase):
     def test_notes_can_be_added(self):
